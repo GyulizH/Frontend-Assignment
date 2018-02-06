@@ -2,7 +2,7 @@
 
 For this exercise a dummy backend API has been prepared for you returning JSON using [canned](https://github.com/sideshowcoder/canned). If you application is running then you can query the search endpoint. For example a user searching for search term `trui`:
 ```
-http://localhost:3000/search?q=trui
+curl -s http://localhost:3000/search\?q\=trui
 ```
 
 If your application is not running, use the following command to start it:
