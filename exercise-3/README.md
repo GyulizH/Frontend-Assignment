@@ -1,14 +1,14 @@
 ## Exercise 3 - Render data
 
-For this exercise a dummy backend API has been prepared for you returning JSON using [canned](https://github.com/sideshowcoder/canned). You can run the backend by executing the following command in your terminal:
+For this exercise a dummy backend API has been prepared for you returning JSON using [canned](https://github.com/sideshowcoder/canned). If you application is running then you can query the search endpoint. For example a user searching for search term `trui`:
+```
+http://localhost:3000/search?q=trui
+```
+
+If your application is not running, use the following command to start it:
 
 ```
-npm run api
-```
-
-You can query API's search endpoint. For example a user searching for `trui`:
-```
-http://localhost:5000/search?q=trui
+npm run start
 ```
 
 Create a service that retrieves the data from the above mentioned API. This data should be used to render the search suggestions. Search suggestions should be rendered according to the designs in excercise3.png. Pay attention to the following:
