@@ -37,7 +37,7 @@ You will find the exercises and associated instructions in separate named folder
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
 
 ## Submitting your code
-If you are completing this offsite please send your local working copy as a zip to <mailto:james.wakefield@debijenkorf.nl>
+If you are completing this offsite please push your local working copy to a remote repository and mail the link to <mailto:james.wakefield@debijenkorf.nl>
 
 Please contact me if you have any questions.
 
