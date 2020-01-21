@@ -39,7 +39,7 @@ Due to an dependency conflict with Webpack between the installed version of Crea
 
 ## Exercises
 
-You will find the exercises and associated instructions in separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **4 hours** max.
+You will find the exercises and associated instructions in separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
 
 ## Notes
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
