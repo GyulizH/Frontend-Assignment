@@ -38,22 +38,12 @@ You may create subdirectories inside `src`. For faster rebuilds, only files insi
 Due to an dependency conflict with Webpack between the installed version of Create React App and Storybook you should use [Yarn](https://yarnpkg.com/lang/en/) to install the project's dependencies.
 
 ## Exercises
-
 You will find the exercises and associated instructions in separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
 
 ## Notes
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
 
 ## Submitting your code
-If you are completing this offsite please push your local working copy to a remote repository and mail the link to <mailto:james.wakefield@debijenkorf.nl>
+If you are completing this assignment offsite please push your local working copy to a remote repository. **Please do not fork this repository**. When you are finished, please [email](mailto:james.wakefield@debijenkorf.nl) a link the repository.
 
-Please contact me if you have any questions.
-
-```
---
-James Wakefield
-Front End Development Team Lead
-james.wakefield@debijenkorf.nl
-
-de Bijenkorf
-```
+Should you have any questions, please do not hesitate to [get in contact](mailto:james.wakefield@debijenkorf.nl).
