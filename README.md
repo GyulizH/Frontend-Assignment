@@ -44,6 +44,4 @@ You will find the exercises and associated instructions in separate named folder
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
 
 ## Submitting your code
-If you are completing this assignment offsite please push your local working copy to a remote repository. **Please do not fork this repository**. When you are finished, please [email](mailto:james.wakefield@debijenkorf.nl) a link the repository.
-
-Should you have any questions, please do not hesitate to [get in contact](mailto:james.wakefield@debijenkorf.nl).
+When you complete the assignment either push your local working copy to a remote repository or email us a .zip file with your solution. **Please do not fork this repository**.
