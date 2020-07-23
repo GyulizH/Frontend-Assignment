@@ -30,15 +30,47 @@ frontend-dev-assignment/
     index.js
     serviceWorker.js
   README.md
+You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.
+
+## Install
+To install project dependencies execute the following command:
+
+```sh
+yarn
 ```
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
+## Run application
+To run the application use the following command:
+```sh
+yarn start
+```
+This command will run two scripts concurrently:
+1. `react-scripts start`
+2. `canned -p 5000 ./api/\"`
 
-## Installing dependencies
-Due to an dependency conflict with Webpack between the installed version of Create React App and Storybook you should use [Yarn](https://yarnpkg.com/lang/en/) to install the project's dependencies.
+The User Interface should be running on http://localhost:3000/
+
+A dummy API endpoint should be available on the same port.
+
+e.g.
+```sh
+curl -s http://localhost:3000/search
+```
+
+## Run tests
+To run tests use the following command:
+```sh
+yarn test
+```
+
+## Run storybook
+To run storybook use the following command:
+```sh
+yarn storybook
+```
 
 ## Exercises
-You will find the exercises and associated instructions in separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
+You will find 4 exercises and associated instructions in the separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
 
 ## Notes
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
