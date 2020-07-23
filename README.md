@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 ## de Bijenkorf Frontend Dev assignment
 
 This project allows de Bijenkorf to asses potential frontend candidates with real, working code.
@@ -5,6 +6,17 @@ This project allows de Bijenkorf to asses potential frontend candidates with rea
 It is bootstrapped with [Create React App](https://github.com/facebook/create-react-app) to give you the initial setup.
 
 If you are not familiar with Create React App you can find an up to date guide [here](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md).
+
+<!-- omit in toc -->
+## TOC
+- [Folder Structure](#folder-structure)
+- [Install](#install)
+- [Run application](#run-application)
+- [Run tests](#run-tests)
+- [Run storybook](#run-storybook)
+- [Exercises](#exercises)
+- [Notes](#notes)
+- [Submitting your code](#submitting-your-code)
 
 ## Folder Structure
 
