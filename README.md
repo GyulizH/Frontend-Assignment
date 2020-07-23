@@ -23,11 +23,14 @@ If you are not familiar with Create React App you can find an up to date guide [
 The initial project structure looks like this:
 
 ```
-frontend-dev-assignment/
+frontend-assignment/
   .storybook/
   api/
-  node_modules/
-  package.json
+    _search.get.json
+  exercise-1
+  exercise-2
+  exercise-3
+  exercise-4
   public/
     favicon.ico
     index.html
@@ -41,7 +44,12 @@ frontend-dev-assignment/
     index.css
     index.js
     serviceWorker.js
+  .gitignore
+  package.json
   README.md
+  yarn.lock
+```
+
 You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.
 
 ## Install
