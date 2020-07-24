@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 ## de Bijenkorf Frontend Dev assignment
 
 This project allows de Bijenkorf to asses potential frontend candidates with real, working code.
@@ -6,16 +7,30 @@ It is bootstrapped with [Create React App](https://github.com/facebook/create-re
 
 If you are not familiar with Create React App you can find an up to date guide [here](https://github.com/facebook/create-react-app/blob/master/packages/cra-template/template/README.md).
 
+<!-- omit in toc -->
+## TOC
+- [Folder Structure](#folder-structure)
+- [Install](#install)
+- [Run application](#run-application)
+- [Run tests](#run-tests)
+- [Run storybook](#run-storybook)
+- [Exercises](#exercises)
+- [Notes](#notes)
+- [Submitting your code](#submitting-your-code)
+
 ## Folder Structure
 
 The initial project structure looks like this:
 
 ```
-frontend-dev-assignment/
+frontend-assignment/
   .storybook/
   api/
-  node_modules/
-  package.json
+    _search.get.json
+  exercise-1
+  exercise-2
+  exercise-3
+  exercise-4
   public/
     favicon.ico
     index.html
@@ -29,16 +44,53 @@ frontend-dev-assignment/
     index.css
     index.js
     serviceWorker.js
+  .gitignore
+  package.json
   README.md
+  yarn.lock
 ```
 
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
+You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.
 
-## Installing dependencies
-Due to an dependency conflict with Webpack between the installed version of Create React App and Storybook you should use [Yarn](https://yarnpkg.com/lang/en/) to install the project's dependencies.
+## Install
+To install project dependencies execute the following command:
+
+```sh
+yarn
+```
+
+## Run application
+To run the application use the following command:
+```sh
+yarn start
+```
+This command will run two scripts concurrently:
+1. `react-scripts start`
+2. `canned -p 5000 ./api/\"`
+
+The User Interface should be running on http://localhost:3000/
+
+A dummy API endpoint should be available on the same port.
+
+e.g.
+```sh
+curl -s http://localhost:3000/search
+```
+
+## Run tests
+To run tests use the following command:
+```sh
+yarn test
+```
+
+## Run storybook
+To run storybook use the following command:
+```sh
+yarn storybook
+```
 
 ## Exercises
-You will find the exercises and associated instructions in separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
+You will find 4 exercises and associated instructions in the separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
 
 ## Notes
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
