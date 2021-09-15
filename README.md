@@ -13,7 +13,6 @@ If you are not familiar with Create React App you can find an up to date guide [
 - [Install](#install)
 - [Run application](#run-application)
 - [Run tests](#run-tests)
-- [Run storybook](#run-storybook)
 - [Exercises](#exercises)
 - [Notes](#notes)
 - [Submitting your code](#submitting-your-code)
@@ -24,13 +23,11 @@ The initial project structure looks like this:
 
 ```
 frontend-assignment/
-  .storybook/
   api/
     _search.get.json
   exercise-1
   exercise-2
   exercise-3
-  exercise-4
   public/
     favicon.ico
     index.html
@@ -43,7 +40,6 @@ frontend-assignment/
     App.test.js
     index.css
     index.js
-    serviceWorker.js
   .gitignore
   package.json
   README.md
@@ -83,14 +79,8 @@ To run tests use the following command:
 yarn test
 ```
 
-## Run storybook
-To run storybook use the following command:
-```sh
-yarn storybook
-```
-
 ## Exercises
-You will find 4 exercises and associated instructions in the separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
+You will find 3 exercises and associated instructions in the separate named folders in the root of this project. This assignment is [timeboxed](https://en.wikipedia.org/wiki/Timeboxing) to **8 hours** max.
 
 ## Notes
 If you have any remarks or observations while working on this assignment you are encouraged submit these along with the assignment.
