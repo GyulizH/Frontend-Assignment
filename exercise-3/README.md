@@ -1,4 +1,5 @@
 ## Exercise 3 - Render data
+
 For this exercise a dummy API endpoint is available returning JSON data. The implementation uses [canned](https://github.com/sideshowcoder/canned). If you application is running then you can query the search endpoint. For example a user searching for search term `trui`:
 
 ```sh
